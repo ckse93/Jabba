@@ -14,7 +14,7 @@ public class Main {
             public int getScore(){return this.score;}
             public String getId(){return this.id;}
             public void setScore(int score){
-                this.score = score;
+                this.score = score;         //"this" points to the class itself 
             }
             public void setId(String id){
                 this.id = id;
